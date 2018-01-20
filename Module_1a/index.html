@@ -1,0 +1,17 @@
+<html lang = "en">
+<head>
+	<title>Javascript and HTML</title>
+	<meta charset="utf-8"/>
+	<script>
+		function changeTitle(){
+			var title = document.querySelector("#mainTitle");
+			title.innerHTML += "<br>This new <u>title</u> has been changed from javascript!";
+		}
+	</script>
+</head>
+<body>
+	<h1 id="mainTitle">My home page</h1>
+	<p>This is an example of an iteractivity between a Javascript and the HTML of a document. </p>
+	<button onclick="changeTitle();">Click me to change titile of the page</button>
+</body>
+</html>
