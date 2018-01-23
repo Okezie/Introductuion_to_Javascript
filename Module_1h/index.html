@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example 4: use an external JS file</title>
+    <meta charset="utf-8"/>
+    <script>
+    	//Logic to add up any amount of number, using the powerful "arguments" keyword which creates an automatic array
+				function sum(){
+					var total = 0;
+					var arrayLength = arguments.length;
+					for(i=0; i<arrayLength; i++){
+						total += arguments[i];
+					}
+
+					return total
+				}
+
+				document.write(sum(87,56,87));
+
+    </script>
+  </head> 
+  <body>	
+		
+</html>
